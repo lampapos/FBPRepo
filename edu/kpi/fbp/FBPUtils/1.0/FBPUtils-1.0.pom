@@ -3,9 +3,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.kpi.fbp</groupId>
-  <artifactId>FBPCore</artifactId>
+  <artifactId>FBPUtils</artifactId>
   <version>1.0</version>
   <dependencies>
+    <dependency>
+      <groupId>edu.kpi.fbp</groupId>
+      <artifactId>FBPCore</artifactId>
+      <version>1.0</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
@@ -19,9 +25,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.thoughtworks.xstream</groupId>
-      <artifactId>xstream</artifactId>
-      <version>1.4.2</version>
+      <groupId>org.gradle</groupId>
+      <artifactId>gradle-tooling-api</artifactId>
+      <version>1.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
